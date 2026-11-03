@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+backups/
+data/_variant_runs/
+output/_variant_runs/
+**/attempt_history/

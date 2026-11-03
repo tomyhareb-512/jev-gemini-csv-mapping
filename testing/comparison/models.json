@@ -1,0 +1,17 @@
+{
+  "max_total_usd": 1.0,
+  "max_output_tokens": 1024,
+  "timeout_seconds": 45,
+  "models": [
+    {"label": "Jev 1.14", "id": "jev-1.14.0", "adapter": "jev", "enabled": true, "input_per_million": 0.042, "output_per_million": 0},
+    {"label": "Claude Haiku 5.5", "id": "anthropic/claude-haiku-5.5", "adapter": "openrouter", "enabled": true},
+    {"label": "Gemini 3.8 Flash", "id": "google/gemini-3.8-flash", "adapter": "openrouter", "enabled": true},
+    {"label": "Qwen3.8 Flash", "id": "qwen/qwen3.8-flash", "adapter": "openrouter", "enabled": true},
+    {"label": "DeepSeek V4.1 Flash", "id": "deepseek/deepseek-v4.1-flash", "adapter": "openrouter", "enabled": true},
+    {"label": "Claude Sonnet 5.5", "id": "anthropic/claude-sonnet-5.5", "adapter": "openrouter", "enabled": true},
+    {"label": "GPT-6.1 Terra", "id": "openai/gpt-6.1-terra", "adapter": "openrouter", "enabled": true},
+    {"label": "GPT-6.1 Sol (optional)", "id": "openai/gpt-6.1-sol", "adapter": "openrouter", "enabled": false},
+    {"label": "GPT-6 Luna (optional)", "id": "openai/gpt-6-luna", "adapter": "openrouter", "enabled": false},
+    {"label": "Jev 1.13 (optional)", "id": "jev-1.13.0", "adapter": "jev", "enabled": false, "input_per_million": 0.042, "output_per_million": 0}
+  ]
+}

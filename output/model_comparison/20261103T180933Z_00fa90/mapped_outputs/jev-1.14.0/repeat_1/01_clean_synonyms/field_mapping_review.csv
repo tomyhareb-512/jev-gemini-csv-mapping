@@ -1,0 +1,8 @@
+target_field,selected_source,candidate,best_score,status,error
+supplier_product_id,Supplier_item_ID,Supplier_item_ID,0.97,auto_mapped,
+model_number,Manufacturer_part_number,Manufacturer_part_number,0.88,auto_mapped,
+product_name,Item_name,Item_name,0.96,auto_mapped,
+category,Product_group,Product_group,0.98,auto_mapped,
+price_usd,Unit_price_USD,Unit_price_USD,0.93,auto_mapped,
+stock_quantity,Available_units,Available_units,0.96,auto_mapped,
+specifications,Specs,Specs,0.99,auto_mapped,

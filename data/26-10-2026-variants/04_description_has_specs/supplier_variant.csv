@@ -1,0 +1,101 @@
+Supplier_item_ID,Manufacturer_part_number,Product_group,Unit_price_USD,Available_units,Description
+V-00001,Nova K100-1,Accessories,12.50,0,Nova K100-1 Keyboard: Wired; USB-A; full-size; English layout
+V-00002,Nova M200-1,Accessories,13.75,17,Nova M200-1 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00003,Nova D300-1,Displays,15.00,34,Nova D300-1 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00004,Nova S400-1,Storage,16.25,51,Nova S400-1 SSD: 512 GB; NVMe; PCIe 4.0
+V-00005,Nova R500-1,Components,17.50,68,Nova R500-1 RAM: 16 GB; DDR4; 3200 MT/s
+V-00006,Nova K100-2,Accessories,18.75,85,Nova K100-2 Keyboard: Wired; USB-A; full-size; English layout
+V-00007,Nova M200-2,Accessories,20.00,1,Nova M200-2 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00008,Nova D300-2,Displays,21.25,18,Nova D300-2 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00009,Nova S400-2,Storage,22.50,35,Nova S400-2 SSD: 512 GB; NVMe; PCIe 4.0
+V-00010,Nova R500-2,Components,23.75,52,Nova R500-2 RAM: 16 GB; DDR4; 3200 MT/s
+V-00011,Nova K100-3,Accessories,25.00,69,Nova K100-3 Keyboard: Wired; USB-A; full-size; English layout
+V-00012,Nova M200-3,Accessories,26.25,86,Nova M200-3 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00013,Nova D300-3,Displays,27.50,2,Nova D300-3 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00014,Nova S400-3,Storage,28.75,19,Nova S400-3 SSD: 512 GB; NVMe; PCIe 4.0
+V-00015,Nova R500-3,Components,30.00,36,Nova R500-3 RAM: 16 GB; DDR4; 3200 MT/s
+V-00016,Nova K100-4,Accessories,31.25,53,Nova K100-4 Keyboard: Wired; USB-A; full-size; English layout
+V-00017,Nova M200-4,Accessories,32.50,70,Nova M200-4 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00018,Nova D300-4,Displays,33.75,87,Nova D300-4 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00019,Nova S400-4,Storage,35.00,3,Nova S400-4 SSD: 512 GB; NVMe; PCIe 4.0
+V-00020,Nova R500-4,Components,36.25,20,Nova R500-4 RAM: 16 GB; DDR4; 3200 MT/s
+V-00021,Nova K100-5,Accessories,37.50,37,Nova K100-5 Keyboard: Wired; USB-A; full-size; English layout
+V-00022,Nova M200-5,Accessories,38.75,54,Nova M200-5 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00023,Nova D300-5,Displays,40.00,71,Nova D300-5 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00024,Nova S400-5,Storage,41.25,88,Nova S400-5 SSD: 512 GB; NVMe; PCIe 4.0
+V-00025,Nova R500-5,Components,42.50,4,Nova R500-5 RAM: 16 GB; DDR4; 3200 MT/s
+V-00026,Nova K100-6,Accessories,43.75,21,Nova K100-6 Keyboard: Wired; USB-A; full-size; English layout
+V-00027,Nova M200-6,Accessories,45.00,38,Nova M200-6 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00028,Nova D300-6,Displays,46.25,55,Nova D300-6 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00029,Nova S400-6,Storage,47.50,72,Nova S400-6 SSD: 512 GB; NVMe; PCIe 4.0
+V-00030,Nova R500-6,Components,48.75,89,Nova R500-6 RAM: 16 GB; DDR4; 3200 MT/s
+V-00031,Nova K100-7,Accessories,50.00,5,Nova K100-7 Keyboard: Wired; USB-A; full-size; English layout
+V-00032,Nova M200-7,Accessories,51.25,22,Nova M200-7 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00033,Nova D300-7,Displays,52.50,39,Nova D300-7 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00034,Nova S400-7,Storage,53.75,56,Nova S400-7 SSD: 512 GB; NVMe; PCIe 4.0
+V-00035,Nova R500-7,Components,55.00,73,Nova R500-7 RAM: 16 GB; DDR4; 3200 MT/s
+V-00036,Nova K100-8,Accessories,56.25,90,Nova K100-8 Keyboard: Wired; USB-A; full-size; English layout
+V-00037,Nova M200-8,Accessories,57.50,6,Nova M200-8 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00038,Nova D300-8,Displays,58.75,23,Nova D300-8 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00039,Nova S400-8,Storage,60.00,40,Nova S400-8 SSD: 512 GB; NVMe; PCIe 4.0
+V-00040,Nova R500-8,Components,61.25,57,Nova R500-8 RAM: 16 GB; DDR4; 3200 MT/s
+V-00041,Nova K100-9,Accessories,62.50,74,Nova K100-9 Keyboard: Wired; USB-A; full-size; English layout
+V-00042,Nova M200-9,Accessories,63.75,91,Nova M200-9 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00043,Nova D300-9,Displays,65.00,7,Nova D300-9 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00044,Nova S400-9,Storage,66.25,24,Nova S400-9 SSD: 512 GB; NVMe; PCIe 4.0
+V-00045,Nova R500-9,Components,67.50,41,Nova R500-9 RAM: 16 GB; DDR4; 3200 MT/s
+V-00046,Nova K100-10,Accessories,68.75,58,Nova K100-10 Keyboard: Wired; USB-A; full-size; English layout
+V-00047,Nova M200-10,Accessories,70.00,75,Nova M200-10 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00048,Nova D300-10,Displays,71.25,92,Nova D300-10 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00049,Nova S400-10,Storage,72.50,8,Nova S400-10 SSD: 512 GB; NVMe; PCIe 4.0
+V-00050,Nova R500-10,Components,73.75,25,Nova R500-10 RAM: 16 GB; DDR4; 3200 MT/s
+V-00051,Nova K100-11,Accessories,75.00,42,Nova K100-11 Keyboard: Wired; USB-A; full-size; English layout
+V-00052,Nova M200-11,Accessories,76.25,59,Nova M200-11 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00053,Nova D300-11,Displays,77.50,76,Nova D300-11 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00054,Nova S400-11,Storage,78.75,93,Nova S400-11 SSD: 512 GB; NVMe; PCIe 4.0
+V-00055,Nova R500-11,Components,80.00,9,Nova R500-11 RAM: 16 GB; DDR4; 3200 MT/s
+V-00056,Nova K100-12,Accessories,81.25,26,Nova K100-12 Keyboard: Wired; USB-A; full-size; English layout
+V-00057,Nova M200-12,Accessories,82.50,43,Nova M200-12 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00058,Nova D300-12,Displays,83.75,60,Nova D300-12 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00059,Nova S400-12,Storage,85.00,77,Nova S400-12 SSD: 512 GB; NVMe; PCIe 4.0
+V-00060,Nova R500-12,Components,86.25,94,Nova R500-12 RAM: 16 GB; DDR4; 3200 MT/s
+V-00061,Nova K100-13,Accessories,87.50,10,Nova K100-13 Keyboard: Wired; USB-A; full-size; English layout
+V-00062,Nova M200-13,Accessories,88.75,27,Nova M200-13 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00063,Nova D300-13,Displays,90.00,44,Nova D300-13 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00064,Nova S400-13,Storage,91.25,61,Nova S400-13 SSD: 512 GB; NVMe; PCIe 4.0
+V-00065,Nova R500-13,Components,92.50,78,Nova R500-13 RAM: 16 GB; DDR4; 3200 MT/s
+V-00066,Nova K100-14,Accessories,93.75,95,Nova K100-14 Keyboard: Wired; USB-A; full-size; English layout
+V-00067,Nova M200-14,Accessories,95.00,11,Nova M200-14 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00068,Nova D300-14,Displays,96.25,28,Nova D300-14 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00069,Nova S400-14,Storage,97.50,45,Nova S400-14 SSD: 512 GB; NVMe; PCIe 4.0
+V-00070,Nova R500-14,Components,98.75,62,Nova R500-14 RAM: 16 GB; DDR4; 3200 MT/s
+V-00071,Nova K100-15,Accessories,100.00,79,Nova K100-15 Keyboard: Wired; USB-A; full-size; English layout
+V-00072,Nova M200-15,Accessories,101.25,96,Nova M200-15 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00073,Nova D300-15,Displays,102.50,12,Nova D300-15 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00074,Nova S400-15,Storage,103.75,29,Nova S400-15 SSD: 512 GB; NVMe; PCIe 4.0
+V-00075,Nova R500-15,Components,105.00,46,Nova R500-15 RAM: 16 GB; DDR4; 3200 MT/s
+V-00076,Nova K100-16,Accessories,106.25,63,Nova K100-16 Keyboard: Wired; USB-A; full-size; English layout
+V-00077,Nova M200-16,Accessories,107.50,80,Nova M200-16 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00078,Nova D300-16,Displays,108.75,97,Nova D300-16 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00079,Nova S400-16,Storage,110.00,13,Nova S400-16 SSD: 512 GB; NVMe; PCIe 4.0
+V-00080,Nova R500-16,Components,111.25,30,Nova R500-16 RAM: 16 GB; DDR4; 3200 MT/s
+V-00081,Nova K100-17,Accessories,112.50,47,Nova K100-17 Keyboard: Wired; USB-A; full-size; English layout
+V-00082,Nova M200-17,Accessories,113.75,64,Nova M200-17 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00083,Nova D300-17,Displays,115.00,81,Nova D300-17 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00084,Nova S400-17,Storage,116.25,98,Nova S400-17 SSD: 512 GB; NVMe; PCIe 4.0
+V-00085,Nova R500-17,Components,117.50,14,Nova R500-17 RAM: 16 GB; DDR4; 3200 MT/s
+V-00086,Nova K100-18,Accessories,118.75,31,Nova K100-18 Keyboard: Wired; USB-A; full-size; English layout
+V-00087,Nova M200-18,Accessories,120.00,48,Nova M200-18 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00088,Nova D300-18,Displays,121.25,65,Nova D300-18 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00089,Nova S400-18,Storage,122.50,82,Nova S400-18 SSD: 512 GB; NVMe; PCIe 4.0
+V-00090,Nova R500-18,Components,123.75,99,Nova R500-18 RAM: 16 GB; DDR4; 3200 MT/s
+V-00091,Nova K100-19,Accessories,125.00,15,Nova K100-19 Keyboard: Wired; USB-A; full-size; English layout
+V-00092,Nova M200-19,Accessories,126.25,32,Nova M200-19 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00093,Nova D300-19,Displays,127.50,49,Nova D300-19 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00094,Nova S400-19,Storage,128.75,66,Nova S400-19 SSD: 512 GB; NVMe; PCIe 4.0
+V-00095,Nova R500-19,Components,130.00,83,Nova R500-19 RAM: 16 GB; DDR4; 3200 MT/s
+V-00096,Nova K100-20,Accessories,131.25,100,Nova K100-20 Keyboard: Wired; USB-A; full-size; English layout
+V-00097,Nova M200-20,Accessories,132.50,16,Nova M200-20 Mouse: Wireless; Bluetooth; 1600 DPI
+V-00098,Nova D300-20,Displays,133.75,33,Nova D300-20 Monitor: 24 inch; 1920x1080; HDMI; 75 Hz
+V-00099,Nova S400-20,Storage,135.00,50,Nova S400-20 SSD: 512 GB; NVMe; PCIe 4.0
+V-00100,Nova R500-20,Components,136.25,67,Nova R500-20 RAM: 16 GB; DDR4; 3200 MT/s

@@ -1,0 +1,8 @@
+target_field,selected_source,candidate,best_score,status,error
+supplier_product_id,Référence_fournisseur,Référence_fournisseur,0.96,auto_mapped,
+model_number,Référence_fabricant,Référence_fabricant,0.91,auto_mapped,
+product_name,اسم_المنتج,اسم_المنتج,0.97,auto_mapped,
+category,Catégorie,Catégorie,0.98,auto_mapped,
+price_usd,Prix_unitaire_USD,Prix_unitaire_USD,0.96,auto_mapped,
+stock_quantity,الوحدات_المتاحة,الوحدات_المتاحة,0.96,auto_mapped,
+specifications,Caractéristiques_techniques,Caractéristiques_techniques,0.98,auto_mapped,

@@ -1,0 +1,1757 @@
+{
+  "suite": "26-10-2026-variants",
+  "rows_per_full_case": 100,
+  "cases": [
+    {
+      "id": "01_clean_synonyms",
+      "description": "Clear alternative headings; all seven fields should map.",
+      "input": "data/26-10-2026-variants/01_clean_synonyms/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_USD",
+        "Available_units",
+        "Specs"
+      ],
+      "sha256": "eb7115ecebe0d11cc1b0aa6d01ce6e50842d942e2261344971a1894a74635c72",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Unit_price_USD"
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "02_shuffled_distractors",
+      "description": "Shuffled columns plus order IDs, units sold, and EUR box prices.",
+      "input": "data/26-10-2026-variants/02_shuffled_distractors/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Box_price_EUR",
+        "Units_sold",
+        "Order_ID",
+        "Specs",
+        "Available_units",
+        "Unit_price_USD",
+        "Product_group",
+        "Item_name",
+        "Manufacturer_part_number",
+        "Supplier_item_ID"
+      ],
+      "sha256": "f94e6c752b2ede28a729bafb130db0c736cbebc80b2f2b78a8440da1daedb46b",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Unit_price_USD"
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "03_missing_fields",
+      "description": "No supplier ID or technical features; do not invent either.",
+      "input": "data/26-10-2026-variants/03_missing_fields/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_USD",
+        "Available_units"
+      ],
+      "sha256": "2d05ededdf7aeb159c2d02a27ad7f7ef3fae1cdd5f0860263d45863284531335",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "absent",
+          "source": null
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Unit_price_USD"
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "absent",
+          "source": null
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "04_description_has_specs",
+      "description": "One description legitimately serves both name and specifications.",
+      "input": "data/26-10-2026-variants/04_description_has_specs/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Product_group",
+        "Unit_price_USD",
+        "Available_units",
+        "Description"
+      ],
+      "sha256": "e6e0da16d7b00f09975e27e6b5d44328a48836960d7969e1b4e23b10af516121",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Description"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Unit_price_USD"
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Description"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "05_unknown_currency",
+      "description": "Bare Price values establish neither USD nor per-item basis.",
+      "input": "data/26-10-2026-variants/05_unknown_currency/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Price",
+        "Available_units",
+        "Specs"
+      ],
+      "sha256": "941243d400407853a4250fed451ea6af0af0a01bded9209288fb17c6d2f91cc3",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "review",
+          "source": null
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "06_eur_only",
+      "description": "Only EUR unit prices; no USD conversion is authorized.",
+      "input": "data/26-10-2026-variants/06_eur_only/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_EUR",
+        "Available_units",
+        "Specs"
+      ],
+      "sha256": "6208f9999d642c45b605777aa8fd72f7101fe547a0df1024490477b89109318f",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "absent",
+          "source": null
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "07_usd_box_prices",
+      "description": "USD box prices are not unit prices; do not divide or guess.",
+      "input": "data/26-10-2026-variants/07_usd_box_prices/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Price_per_box_USD",
+        "Available_units",
+        "Specs",
+        "Units_per_box"
+      ],
+      "sha256": "790c162a139d404846b028695eb37e5c95f9a1c3a9f48b8fd2fcc8c470aa6bc2",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "absent",
+          "source": null
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "08_quantity_traps",
+      "description": "Ordered units, sold units, and available boxes are not available units.",
+      "input": "data/26-10-2026-variants/08_quantity_traps/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_USD",
+        "Units_ordered",
+        "Specs",
+        "Units_sold",
+        "Boxes_available"
+      ],
+      "sha256": "97e7e839bf7edd68104d67300a1cc44f18a6aa066255ac4b4ae0da04389f2e54",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Unit_price_USD"
+        },
+        "stock_quantity": {
+          "policy": "absent",
+          "source": null
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "09_two_valid_prices",
+      "description": "Two different per-item USD prices; target policy does not choose one.",
+      "input": "data/26-10-2026-variants/09_two_valid_prices/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_USD",
+        "Available_units",
+        "Specs",
+        "List_unit_price_USD"
+      ],
+      "sha256": "dc6991d7f0a93495a75d43aab7d28801fde63583b54b8231b253c8c7c0760fd0",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "review",
+          "source": null
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "10_two_supplier_ids",
+      "description": "Two distinct valid supplier references; needs a choice from a person.",
+      "input": "data/26-10-2026-variants/10_two_supplier_ids/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_USD",
+        "Available_units",
+        "Specs",
+        "Supplier_SKU"
+      ],
+      "sha256": "974ec646a3341b3f77cd86542116a31b1a1e3f9767ca6eb73730b71f3e963a0b",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "review",
+          "source": null
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Unit_price_USD"
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "11_opaque_headings",
+      "description": "Values reveal names/groups/features, but identifier roles and units are unknown.",
+      "input": "data/26-10-2026-variants/11_opaque_headings/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Field_1",
+        "Field_2",
+        "Field_3",
+        "Field_4",
+        "Field_5",
+        "Field_6",
+        "Field_7"
+      ],
+      "sha256": "ffd7dc7b0edc443eb853eb32803fb19dd2a394e07d4cd89d34dea4c860fdf506",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "review",
+          "source": null
+        },
+        "model_number": {
+          "policy": "review",
+          "source": null
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Field_3"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Field_4"
+        },
+        "price_usd": {
+          "policy": "review",
+          "source": null
+        },
+        "stock_quantity": {
+          "policy": "review",
+          "source": null
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Field_7"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "12_misleading_headings",
+      "description": "Category contains product names; Product_name contains broad groups.",
+      "input": "data/26-10-2026-variants/12_misleading_headings/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Category",
+        "Product_name",
+        "Unit_price_USD",
+        "Available_units",
+        "Specs"
+      ],
+      "sha256": "52daa6eb09d8e5dc060865fda0a954f7965632ab6d2f798baaa8b1ab8aa9f40a",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Category"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_name"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Unit_price_USD"
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "13_zero_and_blank_stock",
+      "description": "Zero must remain zero; blank stock must remain unknown.",
+      "input": "data/26-10-2026-variants/13_zero_and_blank_stock/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_USD",
+        "Available_units",
+        "Specs"
+      ],
+      "sha256": "10a35e4b227a0729411510f1b7be2f1264c683a7ce5eece83c1a04139ea32769",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Unit_price_USD"
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "14_leading_zero_ids",
+      "description": "Numeric-looking supplier IDs must retain their seven-character spelling.",
+      "input": "data/26-10-2026-variants/14_leading_zero_ids/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_USD",
+        "Available_units",
+        "Specs"
+      ],
+      "sha256": "1ca628b48de9140bb9565e096a437e9c578456aeaf0f9b30e736602f3bd14181",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Unit_price_USD"
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "15_mixed_currency",
+      "description": "Unit_price mixes USD and EUR; one wholesale column mapping is unsafe.",
+      "input": "data/26-10-2026-variants/15_mixed_currency/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price",
+        "Available_units",
+        "Specs",
+        "Currency",
+        "Pricing_basis"
+      ],
+      "sha256": "3a237f20654f4e13870118176c6c9ce160178a9f8658efa205f7001d372c4873",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "review",
+          "source": null
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "16_currency_in_other_columns",
+      "description": "USD and per-item evidence exists in separate context columns.",
+      "input": "data/26-10-2026-variants/16_currency_in_other_columns/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price",
+        "Available_units",
+        "Specs",
+        "Currency",
+        "Pricing_basis"
+      ],
+      "sha256": "8498f0d1433ff955679236e22e710d3635f3e41c484a39fae9866c7a466519a3",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Unit_price"
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "17_multilingual_headings",
+      "description": "French and Arabic headings with clear product values.",
+      "input": "data/26-10-2026-variants/17_multilingual_headings/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Référence_fournisseur",
+        "Référence_fabricant",
+        "اسم_المنتج",
+        "Catégorie",
+        "Prix_unitaire_USD",
+        "الوحدات_المتاحة",
+        "Caractéristiques_techniques"
+      ],
+      "sha256": "40a94415195ea659bb9bff870091c1d27a39c74f104327051ba19b4244d9853d",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Référence_fournisseur"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Référence_fabricant"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "اسم_المنتج"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Catégorie"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Prix_unitaire_USD"
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "الوحدات_المتاحة"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Caractéristiques_techniques"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "18_bad_prices_after_sample",
+      "description": "First eight prices look valid; remaining 92 explicitly say EUR.",
+      "input": "data/26-10-2026-variants/18_bad_prices_after_sample/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_USD",
+        "Available_units",
+        "Specs"
+      ],
+      "sha256": "7c2cc9f5d3e3b1374a5900488aa7046524e3a8e1dc9db91738b825cb7ee31d9f",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "review",
+          "source": null
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {
+        "price_usd": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99
+        ]
+      },
+      "structural_issue": null
+    },
+    {
+      "id": "19_same_rows_bad_values_first",
+      "description": "Same records as case 18, with conflicting currency visible first.",
+      "input": "data/26-10-2026-variants/19_same_rows_bad_values_first/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_USD",
+        "Available_units",
+        "Specs"
+      ],
+      "sha256": "504f889192bcd9c669c0c33e69ad5aab129a158b2dbd54e26a9c403036d1f682",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "review",
+          "source": null
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {
+        "price_usd": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91
+        ]
+      },
+      "structural_issue": null
+    },
+    {
+      "id": "20_text_numeric_values",
+      "description": "Meaningful prices/counts are text; the current copier may not normalize them.",
+      "input": "data/26-10-2026-variants/20_text_numeric_values/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_USD",
+        "Available_units",
+        "Specs"
+      ],
+      "sha256": "cdf3cbc55980b5985dd3f3f5043e25d9a6d1850a9d275b676b31debc0d86c934",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Unit_price_USD"
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {
+        "price_usd": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99
+        ],
+        "stock_quantity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99
+        ]
+      },
+      "structural_issue": null
+    },
+    {
+      "id": "21_bad_stock_after_sample",
+      "description": "After eight valid values, stock becomes negative or fractional.",
+      "input": "data/26-10-2026-variants/21_bad_stock_after_sample/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_USD",
+        "Available_units",
+        "Specs"
+      ],
+      "sha256": "6343729a218a7a9f2d77676a1f4e8fb3ac3f1d011d053e4cf9f6f90f351777af",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Unit_price_USD"
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {
+        "stock_quantity": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99
+        ]
+      },
+      "structural_issue": null
+    },
+    {
+      "id": "22_header_only",
+      "description": "Valid comma CSV with headings but no product rows.",
+      "input": "data/26-10-2026-variants/22_header_only/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 0,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_USD",
+        "Available_units",
+        "Specs"
+      ],
+      "sha256": "4fc7c3893316507194b2006614ad83864360dcb892704c276308b0eea5d7719a",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "absent",
+          "source": null
+        },
+        "model_number": {
+          "policy": "absent",
+          "source": null
+        },
+        "product_name": {
+          "policy": "absent",
+          "source": null
+        },
+        "category": {
+          "policy": "absent",
+          "source": null
+        },
+        "price_usd": {
+          "policy": "absent",
+          "source": null
+        },
+        "stock_quantity": {
+          "policy": "absent",
+          "source": null
+        },
+        "specifications": {
+          "policy": "absent",
+          "source": null
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "23_semicolon_csv",
+      "description": "Valid semicolon CSV; current read_csv assumes comma delimiters.",
+      "input": "data/26-10-2026-variants/23_semicolon_csv/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ";",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_USD",
+        "Available_units",
+        "Specs"
+      ],
+      "sha256": "a35ef0296413af46f0187b61520ec8654b769799f895a575853cc7efaba8db4b",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Unit_price_USD"
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": "delimiter"
+    },
+    {
+      "id": "24_instruction_in_cell",
+      "description": "Instruction-like supplier text is untrusted data, not a mapping instruction.",
+      "input": "data/26-10-2026-variants/24_instruction_in_cell/supplier_variant.csv",
+      "filename": "supplier_variant.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Unit_price_USD",
+        "Available_units",
+        "Specs",
+        "Notes"
+      ],
+      "sha256": "b6630afe2af3bc1d7a1c5f6fe624800dc9da197d6611d861fbfd4dc49b551d63",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "map",
+          "source": "Unit_price_USD"
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    },
+    {
+      "id": "25_familiar_filename_box_price",
+      "description": "Familiar supplier_a.csv name but Price_USD explicitly means a box price.",
+      "input": "data/26-10-2026-variants/25_familiar_filename_box_price/supplier_a.csv",
+      "filename": "supplier_a.csv",
+      "delimiter": ",",
+      "row_count": 100,
+      "headers": [
+        "Supplier_item_ID",
+        "Manufacturer_part_number",
+        "Item_name",
+        "Product_group",
+        "Price_USD",
+        "Available_units",
+        "Specs",
+        "Pricing_basis"
+      ],
+      "sha256": "6e03de50752a7c495bb19a917169c944df07a86e0ab459c0b1f3fa331b33b996",
+      "fields": {
+        "supplier_product_id": {
+          "policy": "map",
+          "source": "Supplier_item_ID"
+        },
+        "model_number": {
+          "policy": "map",
+          "source": "Manufacturer_part_number"
+        },
+        "product_name": {
+          "policy": "map",
+          "source": "Item_name"
+        },
+        "category": {
+          "policy": "map",
+          "source": "Product_group"
+        },
+        "price_usd": {
+          "policy": "absent",
+          "source": null
+        },
+        "stock_quantity": {
+          "policy": "map",
+          "source": "Available_units"
+        },
+        "specifications": {
+          "policy": "map",
+          "source": "Specs"
+        }
+      },
+      "invalid_values": {},
+      "structural_issue": null
+    }
+  ]
+}

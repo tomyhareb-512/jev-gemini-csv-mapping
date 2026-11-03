@@ -1,0 +1,101 @@
+Model,Product_name,Category,Price_USD,Stock_quantity,Specifications
+Aster K100,Aster K100 Wired Keyboard,Accessories,15.00,0,Wired; USB-A; full-size; English layout; black
+Aster M200,Aster M200 Wireless Mouse,Accessories,10.00,17,Wireless; 2.4 GHz USB receiver; 1200 DPI; optical; black
+Aster D300,Aster D300 Monitor,Displays,110.00,34,22 inch; 1920x1080; 75 Hz; HDMI; IPS
+Aster S400,Aster S400 SSD,Storage,35.00,51,256 GB; SATA; 2.5 inch
+Aster R500,Aster R500 RAM Kit,Components,30.00,68,8 GB total; DDR4; 2666 MT/s; 2 modules; desktop DIMM
+Aster H600,Aster H600 Wired Headset,Audio,20.00,85,Wired; 3.5 mm; over-ear; microphone; black
+Aster W700,Aster W700 Webcam,Accessories,25.00,11,1080p at 30 fps; USB-A; built-in microphone
+Aster N800,Aster N800 Router,Networking,40.00,28,Wi-Fi 5; AC1200; dual-band; 4 Gigabit LAN ports
+Aster U900,Aster U900 USB Hub,Accessories,12.00,45,4 ports; USB 3.0; USB-A upstream; powered
+Aster L1000,Aster L1000 Laptop,Computers,450.00,62,14 inch; 8 GB DDR4; 256 GB SSD; 4-core CPU; Linux
+Aster K101,Aster K101 Wireless Keyboard,Accessories,17.50,13,Wireless; 2.4 GHz USB receiver; compact; English layout; black
+Aster M201,Aster M201 Wired Mouse,Accessories,11.75,30,Wired; USB-A; 1400 DPI; optical; black
+Aster D301,Aster D301 Monitor,Displays,122.00,47,24 inch; 1920x1080; 100 Hz; HDMI; IPS
+Aster S401,Aster S401 SSD,Storage,43.00,64,512 GB; NVMe PCIe 3.0; M.2 2280
+Aster R501,Aster R501 RAM Kit,Components,36.00,81,16 GB total; DDR4; 3200 MT/s; 2 modules; desktop DIMM
+Aster H601,Aster H601 Wireless Headset,Audio,23.00,7,Wireless; Bluetooth; over-ear; microphone; black
+Aster W701,Aster W701 Webcam,Accessories,29.00,24,720p at 60 fps; USB-A; built-in microphone
+Aster N801,Aster N801 Router,Networking,47.00,41,Wi-Fi 6; AX1800; dual-band; 4 Gigabit LAN ports
+Aster U901,Aster U901 USB Hub,Accessories,14.00,58,7 ports; USB 3.0; USB-C upstream; bus-powered
+Aster L1001,Aster L1001 Laptop,Computers,490.00,75,15.6 inch; 16 GB DDR4; 512 GB SSD; 6-core CPU; Linux
+Aster K102,Aster K102 Wired Keyboard,Accessories,20.00,26,Wired; USB-A; compact; English layout; black
+Aster M202,Aster M202 Wireless Mouse,Accessories,13.50,43,Wireless; 2.4 GHz USB receiver; 1600 DPI; optical; black
+Aster D302,Aster D302 Monitor,Displays,134.00,60,27 inch; 2560x1440; 75 Hz; HDMI; IPS
+Aster S402,Aster S402 SSD,Storage,51.00,77,1024 GB; SATA; 2.5 inch
+Aster R502,Aster R502 RAM Kit,Components,42.00,3,32 GB total; DDR4; 2666 MT/s; 2 modules; desktop DIMM
+Aster H602,Aster H602 Wired Headset,Audio,26.00,20,Wired; 3.5 mm; over-ear; microphone; black
+Aster W702,Aster W702 Webcam,Accessories,33.00,37,1080p at 30 fps; USB-A; built-in microphone
+Aster N802,Aster N802 Router,Networking,54.00,54,Wi-Fi 5; AC1200; dual-band; 4 Gigabit LAN ports
+Aster U902,Aster U902 USB Hub,Accessories,16.00,71,4 ports; USB 3.0; USB-A upstream; bus-powered
+Aster L1002,Aster L1002 Laptop,Computers,530.00,88,14 inch; 8 GB DDR4; 512 GB SSD; 4-core CPU; Linux
+Aster K103,Aster K103 Wireless Keyboard,Accessories,22.50,39,Wireless; 2.4 GHz USB receiver; full-size; English layout; black
+Aster M203,Aster M203 Wired Mouse,Accessories,15.25,56,Wired; USB-A; 1800 DPI; optical; black
+Aster D303,Aster D303 Monitor,Displays,146.00,73,22 inch; 1920x1080; 100 Hz; HDMI; IPS
+Aster S403,Aster S403 SSD,Storage,59.00,90,256 GB; NVMe PCIe 3.0; M.2 2280
+Aster R503,Aster R503 RAM Kit,Components,48.00,16,8 GB total; DDR4; 3200 MT/s; 2 modules; desktop DIMM
+Aster H603,Aster H603 Wireless Headset,Audio,29.00,33,Wireless; Bluetooth; over-ear; microphone; black
+Aster W703,Aster W703 Webcam,Accessories,37.00,50,720p at 60 fps; USB-A; built-in microphone
+Aster N803,Aster N803 Router,Networking,61.00,67,Wi-Fi 6; AX1800; dual-band; 4 Gigabit LAN ports
+Aster U903,Aster U903 USB Hub,Accessories,18.00,84,7 ports; USB 3.0; USB-C upstream; powered
+Aster L1003,Aster L1003 Laptop,Computers,570.00,10,15.6 inch; 16 GB DDR4; 256 GB SSD; 6-core CPU; Linux
+Aster K104,Aster K104 Wired Keyboard,Accessories,25.00,52,Wired; USB-A; compact; English layout; black
+Aster M204,Aster M204 Wireless Mouse,Accessories,17.00,69,Wireless; 2.4 GHz USB receiver; 2000 DPI; optical; black
+Aster D304,Aster D304 Monitor,Displays,158.00,86,24 inch; 1920x1080; 75 Hz; HDMI; IPS
+Aster S404,Aster S404 SSD,Storage,67.00,12,512 GB; SATA; 2.5 inch
+Aster R504,Aster R504 RAM Kit,Components,54.00,29,16 GB total; DDR4; 2666 MT/s; 2 modules; desktop DIMM
+Aster H604,Aster H604 Wired Headset,Audio,32.00,46,Wired; 3.5 mm; over-ear; microphone; black
+Aster W704,Aster W704 Webcam,Accessories,41.00,63,1080p at 30 fps; USB-A; built-in microphone
+Aster N804,Aster N804 Router,Networking,68.00,80,Wi-Fi 5; AC1200; dual-band; 4 Gigabit LAN ports
+Aster U904,Aster U904 USB Hub,Accessories,20.00,6,4 ports; USB 3.0; USB-A upstream; bus-powered
+Aster L1004,Aster L1004 Laptop,Computers,610.00,23,14 inch; 8 GB DDR4; 512 GB SSD; 4-core CPU; Linux
+Aster K105,Aster K105 Wireless Keyboard,Accessories,27.50,65,Wireless; 2.4 GHz USB receiver; compact; English layout; black
+Aster M205,Aster M205 Wired Mouse,Accessories,18.75,82,Wired; USB-A; 2200 DPI; optical; black
+Aster D305,Aster D305 Monitor,Displays,170.00,8,27 inch; 2560x1440; 100 Hz; HDMI; IPS
+Aster S405,Aster S405 SSD,Storage,75.00,25,1024 GB; NVMe PCIe 3.0; M.2 2280
+Aster R505,Aster R505 RAM Kit,Components,60.00,42,32 GB total; DDR4; 3200 MT/s; 2 modules; desktop DIMM
+Aster H605,Aster H605 Wireless Headset,Audio,35.00,59,Wireless; Bluetooth; over-ear; microphone; black
+Aster W705,Aster W705 Webcam,Accessories,45.00,76,720p at 60 fps; USB-A; built-in microphone
+Aster N805,Aster N805 Router,Networking,75.00,2,Wi-Fi 6; AX1800; dual-band; 4 Gigabit LAN ports
+Aster U905,Aster U905 USB Hub,Accessories,22.00,19,7 ports; USB 3.0; USB-C upstream; bus-powered
+Aster L1005,Aster L1005 Laptop,Computers,650.00,36,15.6 inch; 16 GB DDR4; 512 GB SSD; 6-core CPU; Linux
+Aster K106,Aster K106 Wired Keyboard,Accessories,30.00,78,Wired; USB-A; full-size; English layout; black
+Aster M206,Aster M206 Wireless Mouse,Accessories,20.50,4,Wireless; 2.4 GHz USB receiver; 2400 DPI; optical; black
+Aster D306,Aster D306 Monitor,Displays,182.00,21,22 inch; 1920x1080; 75 Hz; HDMI; IPS
+Aster S406,Aster S406 SSD,Storage,83.00,38,256 GB; SATA; 2.5 inch
+Aster R506,Aster R506 RAM Kit,Components,66.00,55,8 GB total; DDR4; 2666 MT/s; 2 modules; desktop DIMM
+Aster H606,Aster H606 Wired Headset,Audio,38.00,72,Wired; 3.5 mm; over-ear; microphone; black
+Aster W706,Aster W706 Webcam,Accessories,49.00,89,1080p at 30 fps; USB-A; built-in microphone
+Aster N806,Aster N806 Router,Networking,82.00,15,Wi-Fi 5; AC1200; dual-band; 4 Gigabit LAN ports
+Aster U906,Aster U906 USB Hub,Accessories,24.00,32,4 ports; USB 3.0; USB-A upstream; powered
+Aster L1006,Aster L1006 Laptop,Computers,690.00,49,14 inch; 8 GB DDR4; 256 GB SSD; 4-core CPU; Linux
+Aster K107,Aster K107 Wireless Keyboard,Accessories,32.50,0,Wireless; 2.4 GHz USB receiver; compact; English layout; black
+Aster M207,Aster M207 Wired Mouse,Accessories,22.25,17,Wired; USB-A; 2600 DPI; optical; black
+Aster D307,Aster D307 Monitor,Displays,194.00,34,24 inch; 1920x1080; 100 Hz; HDMI; IPS
+Aster S407,Aster S407 SSD,Storage,91.00,51,512 GB; NVMe PCIe 3.0; M.2 2280
+Aster R507,Aster R507 RAM Kit,Components,72.00,68,16 GB total; DDR4; 3200 MT/s; 2 modules; desktop DIMM
+Aster H607,Aster H607 Wireless Headset,Audio,41.00,85,Wireless; Bluetooth; over-ear; microphone; black
+Aster W707,Aster W707 Webcam,Accessories,53.00,11,720p at 60 fps; USB-A; built-in microphone
+Aster N807,Aster N807 Router,Networking,89.00,28,Wi-Fi 6; AX1800; dual-band; 4 Gigabit LAN ports
+Aster U907,Aster U907 USB Hub,Accessories,26.00,45,7 ports; USB 3.0; USB-C upstream; bus-powered
+Aster L1007,Aster L1007 Laptop,Computers,730.00,62,15.6 inch; 16 GB DDR4; 512 GB SSD; 6-core CPU; Linux
+Aster K108,Aster K108 Wired Keyboard,Accessories,35.00,13,Wired; USB-A; compact; English layout; black
+Aster M208,Aster M208 Wireless Mouse,Accessories,24.00,30,Wireless; 2.4 GHz USB receiver; 2800 DPI; optical; black
+Aster D308,Aster D308 Monitor,Displays,206.00,47,27 inch; 2560x1440; 75 Hz; HDMI; IPS
+Aster S408,Aster S408 SSD,Storage,99.00,64,1024 GB; SATA; 2.5 inch
+Aster R508,Aster R508 RAM Kit,Components,78.00,81,32 GB total; DDR4; 2666 MT/s; 2 modules; desktop DIMM
+Aster H608,Aster H608 Wired Headset,Audio,44.00,7,Wired; 3.5 mm; over-ear; microphone; black
+Aster W708,Aster W708 Webcam,Accessories,57.00,24,1080p at 30 fps; USB-A; built-in microphone
+Aster N808,Aster N808 Router,Networking,96.00,41,Wi-Fi 5; AC1200; dual-band; 4 Gigabit LAN ports
+Aster U908,Aster U908 USB Hub,Accessories,28.00,58,4 ports; USB 3.0; USB-A upstream; bus-powered
+Aster L1008,Aster L1008 Laptop,Computers,770.00,75,14 inch; 8 GB DDR4; 512 GB SSD; 4-core CPU; Linux
+Aster K109,Aster K109 Wireless Keyboard,Accessories,37.50,26,Wireless; 2.4 GHz USB receiver; full-size; English layout; black
+Aster M209,Aster M209 Wired Mouse,Accessories,25.75,43,Wired; USB-A; 3000 DPI; optical; black
+Aster D309,Aster D309 Monitor,Displays,218.00,60,22 inch; 1920x1080; 100 Hz; HDMI; IPS
+Aster S409,Aster S409 SSD,Storage,107.00,77,256 GB; NVMe PCIe 3.0; M.2 2280
+Aster R509,Aster R509 RAM Kit,Components,84.00,3,8 GB total; DDR4; 3200 MT/s; 2 modules; desktop DIMM
+Aster H609,Aster H609 Wireless Headset,Audio,47.00,20,Wireless; Bluetooth; over-ear; microphone; black
+Aster W709,Aster W709 Webcam,Accessories,61.00,37,720p at 60 fps; USB-A; built-in microphone
+Aster N809,Aster N809 Router,Networking,103.00,54,Wi-Fi 6; AX1800; dual-band; 4 Gigabit LAN ports
+Aster U909,Aster U909 USB Hub,Accessories,30.00,71,7 ports; USB 3.0; USB-C upstream; powered
+Aster L1009,Aster L1009 Laptop,Computers,810.00,88,15.6 inch; 16 GB DDR4; 256 GB SSD; 6-core CPU; Linux

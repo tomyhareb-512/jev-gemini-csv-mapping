@@ -1,0 +1,101 @@
+Supplier_item_ID,Description,Manufacturer_code,Department,Units_available,Unit_cost_USD,Technical_details
+B-0001,"Keyboard, wired; usb-a; full-size; english layout; black - Aster K100",Aster K100,Computer peripherals,0,14.50,Wired; USB-A; full-size; English layout; black
+B-0002,"Mouse, wireless; 2.4 ghz usb receiver; 1200 dpi; optical; black - Aster M200",Aster M200,Computer peripherals,11,11.00,Wireless; 2.4 GHz USB receiver; 1200 DPI; optical; black
+B-0003,"Monitor, 22 inch; 1920x1080; 75 hz; hdmi; ips - Aster D300",Aster D300,Screens and monitors,22,110.00,22 inch; 1920x1080; 75 Hz; HDMI; IPS
+B-0004,"SSD, 256 gb; sata; 2.5 inch - Aster S400",Aster S400,Solid state drives,33,36.05,256 GB; SATA; 2.5 inch
+B-0005,"RAM Kit, 8 gb total; ddr4; 2666 mt/s; 2 modules; desktop dimm - Aster R500",Aster R500,Memory modules,44,31.80,8 GB total; DDR4; 2666 MT/s; 2 modules; desktop DIMM
+B-0006,"Headset, wired; 3.5 mm; over-ear; microphone; black - Aster H600",Aster H600,Headphones and headsets,55,18.80,Wired; 3.5 mm; over-ear; microphone; black
+B-0007,"Webcam, 1080p at 30 fps; usb-a; built-in microphone - Aster W700",Aster W700,Video peripherals,66,24.25,1080p at 30 fps; USB-A; built-in microphone
+B-0008,"Router, wi-fi 5; ac1200; dual-band; 4 gigabit lan ports - Aster N800",Aster N800,Network equipment,1,40.00,Wi-Fi 5; AC1200; dual-band; 4 Gigabit LAN ports
+B-0009,"USB Hub, 4 ports; usb 3.0; usb-a upstream; powered - Aster U900",Aster U900,Adapters and hubs,12,12.36,4 ports; USB 3.0; USB-A upstream; powered
+B-0010,"Laptop, 14 inch; 8 gb ddr4; 256 gb ssd; 4-core cpu; linux - Aster L1000",Aster L1000,Notebooks,23,477.00,14 inch; 8 GB DDR4; 256 GB SSD; 4-core CPU; Linux
+B-0011,"Keyboard, wireless; 2.4 ghz usb receiver; compact; english layout; black - Aster K101",Aster K101,Computer peripherals,19,16.97,Wireless; 2.4 GHz USB receiver; compact; English layout; black
+B-0012,"Mouse, wired; usb-a; 1400 dpi; optical; black - Aster M201",Aster M201,Computer peripherals,30,11.75,Wired; USB-A; 1400 DPI; optical; black
+B-0013,"Monitor, 24 inch; 1920x1080; 100 hz; hdmi; ips - Aster D301",Aster D301,Screens and monitors,41,125.66,24 inch; 1920x1080; 100 Hz; HDMI; IPS
+B-0014,"SSD, 512 gb; nvme pcie 3.0; m.2 2280 - Aster S401",Aster S401,Solid state drives,52,45.58,512 GB; NVMe PCIe 3.0; M.2 2280
+B-0015,"RAM Kit, 16 gb total; ddr4; 3200 mt/s; 2 modules; desktop dimm - Aster R501",Aster R501,Memory modules,63,33.84,16 GB total; DDR4; 3200 MT/s; 2 modules; desktop DIMM
+B-0016,"Headset, wireless; bluetooth; over-ear; microphone; black - Aster H601",Aster H601,Headphones and headsets,74,22.31,Wireless; Bluetooth; over-ear; microphone; black
+B-0017,"Webcam, 720p at 60 fps; usb-a; built-in microphone - Aster W701",Aster W701,Video peripherals,9,29.00,720p at 60 fps; USB-A; built-in microphone
+B-0018,"Router, wi-fi 6; ax1800; dual-band; 4 gigabit lan ports - Aster N801",Aster N801,Network equipment,20,48.41,Wi-Fi 6; AX1800; dual-band; 4 Gigabit LAN ports
+B-0019,"USB Hub, 7 ports; usb 3.0; usb-c upstream; bus-powered - Aster U901",Aster U901,Adapters and hubs,31,14.84,7 ports; USB 3.0; USB-C upstream; bus-powered
+B-0020,"Laptop, 15.6 inch; 16 gb ddr4; 512 gb ssd; 6-core cpu; linux - Aster L1001",Aster L1001,Notebooks,42,460.60,15.6 inch; 16 GB DDR4; 512 GB SSD; 6-core CPU; Linux
+B-0021,"Keyboard, wired; usb-a; compact; english layout; black - Aster K102",Aster K102,Computer peripherals,38,20.00,Wired; USB-A; compact; English layout; black
+B-0022,"Mouse, wireless; 2.4 ghz usb receiver; 1600 dpi; optical; black - Aster M202",Aster M202,Computer peripherals,49,13.91,Wireless; 2.4 GHz USB receiver; 1600 DPI; optical; black
+B-0023,"Monitor, 27 inch; 2560x1440; 75 hz; hdmi; ips - Aster D302",Aster D302,Screens and monitors,60,142.04,27 inch; 2560x1440; 75 Hz; HDMI; IPS
+B-0024,"SSD, 1024 gb; sata; 2.5 inch - Aster S402",Aster S402,Solid state drives,71,47.94,1024 GB; SATA; 2.5 inch
+B-0025,"RAM Kit, 32 gb total; ddr4; 2666 mt/s; 2 modules; desktop dimm - Aster R502",Aster R502,Memory modules,6,40.74,32 GB total; DDR4; 2666 MT/s; 2 modules; desktop DIMM
+B-0026,"Headset, wired; 3.5 mm; over-ear; microphone; black - Aster H602",Aster H602,Headphones and headsets,17,26.00,Wired; 3.5 mm; over-ear; microphone; black
+B-0027,"Webcam, 1080p at 30 fps; usb-a; built-in microphone - Aster W702",Aster W702,Video peripherals,28,33.99,1080p at 30 fps; USB-A; built-in microphone
+B-0028,"Router, wi-fi 5; ac1200; dual-band; 4 gigabit lan ports - Aster N802",Aster N802,Network equipment,39,57.24,Wi-Fi 5; AC1200; dual-band; 4 Gigabit LAN ports
+B-0029,"USB Hub, 4 ports; usb 3.0; usb-a upstream; bus-powered - Aster U902",Aster U902,Adapters and hubs,50,15.04,4 ports; USB 3.0; USB-A upstream; bus-powered
+B-0030,"Laptop, 14 inch; 8 gb ddr4; 512 gb ssd; 4-core cpu; linux - Aster L1002",Aster L1002,Notebooks,61,514.10,14 inch; 8 GB DDR4; 512 GB SSD; 4-core CPU; Linux
+B-0031,"Keyboard, wireless; 2.4 ghz usb receiver; full-size; english layout; black - Aster K103",Aster K103,Computer peripherals,57,23.18,Wireless; 2.4 GHz USB receiver; full-size; English layout; black
+B-0032,"Mouse, wired; usb-a; 1800 dpi; optical; black - Aster M203",Aster M203,Computer peripherals,68,16.17,Wired; USB-A; 1800 DPI; optical; black
+B-0033,"Monitor, 22 inch; 1920x1080; 100 hz; hdmi; ips - Aster D303",Aster D303,Screens and monitors,3,137.24,22 inch; 1920x1080; 100 Hz; HDMI; IPS
+B-0034,"SSD, 256 gb; nvme pcie 3.0; m.2 2280 - Aster S403",Aster S403,Solid state drives,14,57.23,256 GB; NVMe PCIe 3.0; M.2 2280
+B-0035,"RAM Kit, 8 gb total; ddr4; 3200 mt/s; 2 modules; desktop dimm - Aster R503",Aster R503,Memory modules,25,48.00,8 GB total; DDR4; 3200 MT/s; 2 modules; desktop DIMM
+B-0036,"Headset, wireless; bluetooth; over-ear; microphone; black - Aster H603",Aster H603,Headphones and headsets,36,29.87,Wireless; Bluetooth; over-ear; microphone; black
+B-0037,"Webcam, 720p at 60 fps; usb-a; built-in microphone - Aster W703",Aster W703,Video peripherals,47,39.22,720p at 60 fps; USB-A; built-in microphone
+B-0038,"Router, wi-fi 6; ax1800; dual-band; 4 gigabit lan ports - Aster N803",Aster N803,Network equipment,58,57.34,Wi-Fi 6; AX1800; dual-band; 4 Gigabit LAN ports
+B-0039,"USB Hub, 7 ports; usb 3.0; usb-c upstream; powered - Aster U903",Aster U903,Adapters and hubs,69,17.46,7 ports; USB 3.0; USB-C upstream; powered
+B-0040,"Laptop, 15.6 inch; 16 gb ddr4; 256 gb ssd; 6-core cpu; linux - Aster L1003",Aster L1003,Notebooks,4,570.00,15.6 inch; 16 GB DDR4; 256 GB SSD; 6-core CPU; Linux
+B-0041,"Keyboard, wired; usb-a; compact; english layout; black - Aster K104",Aster K104,Computer peripherals,0,26.50,Wired; USB-A; compact; English layout; black
+B-0042,"Mouse, wireless; 2.4 ghz usb receiver; 2000 dpi; optical; black - Aster M204",Aster M204,Computer peripherals,11,15.98,Wireless; 2.4 GHz USB receiver; 2000 DPI; optical; black
+B-0043,"Monitor, 24 inch; 1920x1080; 75 hz; hdmi; ips - Aster D304",Aster D304,Screens and monitors,22,153.26,24 inch; 1920x1080; 75 Hz; HDMI; IPS
+B-0044,"SSD, 512 gb; sata; 2.5 inch - Aster S404",Aster S404,Solid state drives,33,67.00,512 GB; SATA; 2.5 inch
+B-0045,"RAM Kit, 16 gb total; ddr4; 2666 mt/s; 2 modules; desktop dimm - Aster R504",Aster R504,Memory modules,44,55.62,16 GB total; DDR4; 2666 MT/s; 2 modules; desktop DIMM
+B-0046,"Headset, wired; 3.5 mm; over-ear; microphone; black - Aster H604",Aster H604,Headphones and headsets,55,33.92,Wired; 3.5 mm; over-ear; microphone; black
+B-0047,"Webcam, 1080p at 30 fps; usb-a; built-in microphone - Aster W704",Aster W704,Video peripherals,66,38.54,1080p at 30 fps; USB-A; built-in microphone
+B-0048,"Router, wi-fi 5; ac1200; dual-band; 4 gigabit lan ports - Aster N804",Aster N804,Network equipment,1,65.96,Wi-Fi 5; AC1200; dual-band; 4 Gigabit LAN ports
+B-0049,"USB Hub, 4 ports; usb 3.0; usb-a upstream; bus-powered - Aster U904",Aster U904,Adapters and hubs,12,20.00,4 ports; USB 3.0; USB-A upstream; bus-powered
+B-0050,"Laptop, 14 inch; 8 gb ddr4; 512 gb ssd; 4-core cpu; linux - Aster L1004",Aster L1004,Notebooks,23,628.30,14 inch; 8 GB DDR4; 512 GB SSD; 4-core CPU; Linux
+B-0051,"Keyboard, wired; usb-a; compact; english layout; black - Aster K110",Aster K110,Computer peripherals,19,37.60,Wired; USB-A; compact; English layout; black
+B-0052,"Mouse, wireless; 2.4 ghz usb receiver; 3200 dpi; optical; black - Aster M210",Aster M210,Computer peripherals,30,26.68,Wireless; 2.4 GHz USB receiver; 3200 DPI; optical; black
+B-0053,"Monitor, 24 inch; 1920x1080; 75 hz; hdmi; ips - Aster D310",Aster D310,Screens and monitors,41,230.00,24 inch; 1920x1080; 75 Hz; HDMI; IPS
+B-0054,"SSD, 512 gb; sata; 2.5 inch - Aster S410",Aster S410,Solid state drives,52,118.45,512 GB; SATA; 2.5 inch
+B-0055,"RAM Kit, 16 gb total; ddr4; 2666 mt/s; 2 modules; desktop dimm - Aster R510",Aster R510,Memory modules,63,95.40,16 GB total; DDR4; 2666 MT/s; 2 modules; desktop DIMM
+B-0056,"Headset, wired; 3.5 mm; over-ear; microphone; black - Aster H610",Aster H610,Headphones and headsets,74,47.00,Wired; 3.5 mm; over-ear; microphone; black
+B-0057,"Webcam, 1080p at 30 fps; usb-a; built-in microphone - Aster W710",Aster W710,Video peripherals,9,63.05,1080p at 30 fps; USB-A; built-in microphone
+B-0058,"Router, wi-fi 5; ac1200; dual-band; 4 gigabit lan ports - Aster N810",Aster N810,Network equipment,20,110.00,Wi-Fi 5; AC1200; dual-band; 4 Gigabit LAN ports
+B-0059,"USB Hub, 4 ports; usb 3.0; usb-a upstream; bus-powered - Aster U910",Aster U910,Adapters and hubs,31,32.96,4 ports; USB 3.0; USB-A upstream; bus-powered
+B-0060,"Laptop, 14 inch; 8 gb ddr4; 512 gb ssd; 4-core cpu; linux - Aster L1010",Aster L1010,Notebooks,42,901.00,14 inch; 8 GB DDR4; 512 GB SSD; 4-core CPU; Linux
+B-0061,"Keyboard, wireless; 2.4 ghz usb receiver; compact; english layout; black - Aster K111",Aster K111,Computer peripherals,38,41.23,Wireless; 2.4 GHz USB receiver; compact; English layout; black
+B-0062,"Mouse, wired; usb-a; 3400 dpi; optical; black - Aster M211",Aster M211,Computer peripherals,49,29.25,Wired; USB-A; 3400 DPI; optical; black
+B-0063,"Monitor, 27 inch; 2560x1440; 100 hz; hdmi; ips - Aster D311",Aster D311,Screens and monitors,60,249.26,27 inch; 2560x1440; 100 Hz; HDMI; IPS
+B-0064,"SSD, 1024 gb; nvme pcie 3.0; m.2 2280 - Aster S411",Aster S411,Solid state drives,71,130.38,1024 GB; NVMe PCIe 3.0; M.2 2280
+B-0065,"RAM Kit, 32 gb total; ddr4; 3200 mt/s; 2 modules; desktop dimm - Aster R511",Aster R511,Memory modules,6,90.24,32 GB total; DDR4; 3200 MT/s; 2 modules; desktop DIMM
+B-0066,"Headset, wireless; bluetooth; over-ear; microphone; black - Aster H611",Aster H611,Headphones and headsets,17,51.41,Wireless; Bluetooth; over-ear; microphone; black
+B-0067,"Webcam, 720p at 60 fps; usb-a; built-in microphone - Aster W711",Aster W711,Video peripherals,28,69.00,720p at 60 fps; USB-A; built-in microphone
+B-0068,"Router, wi-fi 6; ax1800; dual-band; 4 gigabit lan ports - Aster N811",Aster N811,Network equipment,39,120.51,Wi-Fi 6; AX1800; dual-band; 4 Gigabit LAN ports
+B-0069,"USB Hub, 7 ports; usb 3.0; usb-c upstream; bus-powered - Aster U911",Aster U911,Adapters and hubs,50,36.04,7 ports; USB 3.0; USB-C upstream; bus-powered
+B-0070,"Laptop, 15.6 inch; 16 gb ddr4; 512 gb ssd; 6-core cpu; linux - Aster L1011",Aster L1011,Notebooks,61,836.60,15.6 inch; 16 GB DDR4; 512 GB SSD; 6-core CPU; Linux
+B-0071,"Keyboard, wired; usb-a; full-size; english layout; black - Aster K112",Aster K112,Computer peripherals,57,45.00,Wired; USB-A; full-size; English layout; black
+B-0072,"Mouse, wireless; 2.4 ghz usb receiver; 3600 dpi; optical; black - Aster M212",Aster M212,Computer peripherals,68,31.93,Wireless; 2.4 GHz USB receiver; 3600 DPI; optical; black
+B-0073,"Monitor, 22 inch; 1920x1080; 75 hz; hdmi; ips - Aster D312",Aster D312,Screens and monitors,3,269.24,22 inch; 1920x1080; 75 Hz; HDMI; IPS
+B-0074,"SSD, 256 gb; sata; 2.5 inch - Aster S412",Aster S412,Solid state drives,14,123.14,256 GB; SATA; 2.5 inch
+B-0075,"RAM Kit, 8 gb total; ddr4; 2666 mt/s; 2 modules; desktop dimm - Aster R512",Aster R512,Memory modules,25,98.94,8 GB total; DDR4; 2666 MT/s; 2 modules; desktop DIMM
+B-0076,"Headset, wired; 3.5 mm; over-ear; microphone; black - Aster H612",Aster H612,Headphones and headsets,36,56.00,Wired; 3.5 mm; over-ear; microphone; black
+B-0077,"Webcam, 1080p at 30 fps; usb-a; built-in microphone - Aster W712",Aster W712,Video peripherals,47,75.19,1080p at 30 fps; USB-A; built-in microphone
+B-0078,"Router, wi-fi 5; ac1200; dual-band; 4 gigabit lan ports - Aster N812",Aster N812,Network equipment,58,131.44,Wi-Fi 5; AC1200; dual-band; 4 Gigabit LAN ports
+B-0079,"USB Hub, 4 ports; usb 3.0; usb-a upstream; powered - Aster U912",Aster U912,Adapters and hubs,69,33.84,4 ports; USB 3.0; USB-A upstream; powered
+B-0080,"Laptop, 14 inch; 8 gb ddr4; 256 gb ssd; 4-core cpu; linux - Aster L1012",Aster L1012,Notebooks,4,902.10,14 inch; 8 GB DDR4; 256 GB SSD; 4-core CPU; Linux
+B-0081,"Keyboard, wireless; 2.4 ghz usb receiver; compact; english layout; black - Aster K113",Aster K113,Computer peripherals,0,48.93,Wireless; 2.4 GHz USB receiver; compact; English layout; black
+B-0082,"Mouse, wired; usb-a; 3800 dpi; optical; black - Aster M213",Aster M213,Computer peripherals,11,34.72,Wired; USB-A; 3800 DPI; optical; black
+B-0083,"Monitor, 24 inch; 1920x1080; 100 hz; hdmi; ips - Aster D313",Aster D313,Screens and monitors,22,250.04,24 inch; 1920x1080; 100 Hz; HDMI; IPS
+B-0084,"SSD, 512 gb; nvme pcie 3.0; m.2 2280 - Aster S413",Aster S413,Solid state drives,33,134.83,512 GB; NVMe PCIe 3.0; M.2 2280
+B-0085,"RAM Kit, 16 gb total; ddr4; 3200 mt/s; 2 modules; desktop dimm - Aster R513",Aster R513,Memory modules,44,108.00,16 GB total; DDR4; 3200 MT/s; 2 modules; desktop DIMM
+B-0086,"Headset, wireless; bluetooth; over-ear; microphone; black - Aster H613",Aster H613,Headphones and headsets,55,60.77,Wireless; Bluetooth; over-ear; microphone; black
+B-0087,"Webcam, 720p at 60 fps; usb-a; built-in microphone - Aster W713",Aster W713,Video peripherals,66,81.62,720p at 60 fps; USB-A; built-in microphone
+B-0088,"Router, wi-fi 6; ax1800; dual-band; 4 gigabit lan ports - Aster N813",Aster N813,Network equipment,1,123.14,Wi-Fi 6; AX1800; dual-band; 4 Gigabit LAN ports
+B-0089,"USB Hub, 7 ports; usb 3.0; usb-c upstream; bus-powered - Aster U913",Aster U913,Adapters and hubs,12,36.86,7 ports; USB 3.0; USB-C upstream; bus-powered
+B-0090,"Laptop, 15.6 inch; 16 gb ddr4; 512 gb ssd; 6-core cpu; linux - Aster L1013",Aster L1013,Notebooks,23,970.00,15.6 inch; 16 GB DDR4; 512 GB SSD; 6-core CPU; Linux
+B-0091,"Keyboard, wired; usb-a; compact; english layout; black - Aster K114",Aster K114,Computer peripherals,19,53.00,Wired; USB-A; compact; English layout; black
+B-0092,"Mouse, wireless; 2.4 ghz usb receiver; 4000 dpi; optical; black - Aster M214",Aster M214,Computer peripherals,30,32.43,Wireless; 2.4 GHz USB receiver; 4000 DPI; optical; black
+B-0093,"Monitor, 27 inch; 2560x1440; 75 hz; hdmi; ips - Aster D314",Aster D314,Screens and monitors,41,269.66,27 inch; 2560x1440; 75 Hz; HDMI; IPS
+B-0094,"SSD, 1024 gb; sata; 2.5 inch - Aster S414",Aster S414,Solid state drives,52,147.00,1024 GB; SATA; 2.5 inch
+B-0095,"RAM Kit, 32 gb total; ddr4; 2666 mt/s; 2 modules; desktop dimm - Aster R514",Aster R514,Memory modules,63,117.42,32 GB total; DDR4; 2666 MT/s; 2 modules; desktop DIMM
+B-0096,"Headset, wired; 3.5 mm; over-ear; microphone; black - Aster H614",Aster H614,Headphones and headsets,74,65.72,Wired; 3.5 mm; over-ear; microphone; black
+B-0097,"Webcam, 1080p at 30 fps; usb-a; built-in microphone - Aster W714",Aster W714,Video peripherals,9,76.14,1080p at 30 fps; USB-A; built-in microphone
+B-0098,"Router, wi-fi 5; ac1200; dual-band; 4 gigabit lan ports - Aster N814",Aster N814,Network equipment,20,133.86,Wi-Fi 5; AC1200; dual-band; 4 Gigabit LAN ports
+B-0099,"USB Hub, 4 ports; usb 3.0; usb-a upstream; bus-powered - Aster U914",Aster U914,Adapters and hubs,31,40.00,4 ports; USB 3.0; USB-A upstream; bus-powered
+B-0100,"Laptop, 14 inch; 8 gb ddr4; 512 gb ssd; 4-core cpu; linux - Aster L1014",Aster L1014,Notebooks,42,1040.30,14 inch; 8 GB DDR4; 512 GB SSD; 4-core CPU; Linux
